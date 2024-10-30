@@ -1,15 +1,32 @@
 <?php
 /**
- * @package Aus Forminator Addon Userinfo
- * @version 1.0.0
+ * Plugin Name: Forminator Add-on : User Info
+ * Version: 1.0.0
+ * Description: Log user information on submission and enables [view-only-own-submissions for non-admin users] functon.
+ * Author: Auslee
+ * Author URI: https://profiles.wordpress.org/auslee986/
+ * Requires at least: 6.4
+ * Tested up to: 6.6
+ * Requires PHP: 7.4
+ * Text Domain: forminator-add-on-user-info
+ * License: GPL v3
+ * License URI: https://www.gnu.org/licenses/gpl-3.0.html
+ *
+ * @package    Aus Forminator Addon Userinfo
  */
+
 /*
-Plugin Name: Forminator Add-on : User Info
-Plugin URI: http://wordpress.org/plugins/aus-util/
-Description: It records user information on submission and adds an option for [view-only-own-submissions for non-admin users] functon.
-Author: Auslee
-Version: 1.0.0
-Author URI: https://profiles.wordpress.org/auslee986/
+Copyright 2024-2028 Auslee (https://profiles.wordpress.org/auslee986/)
+Author – Auslee
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License (Version 3 – GPLv3) as published by
+the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
 */
 
 $aus__forminator_custom_metas = array(
