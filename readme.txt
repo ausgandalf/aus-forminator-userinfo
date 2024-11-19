@@ -12,7 +12,11 @@ Forminator Add-on : User Info enhancements.
 
 == Description ==
 
-**This plugin adds custom logic to [Forminator](https://wordpress.org/plugins/forminator/).**
+**This plugin adds custom logic to [Forminator](https://wordpress.org/plugins/forminator/) as following:**
+
+- Automatically record logged in user's information on form submission record.
+
+- Restrict non-admin users to see only their own submission.
 
 **Special thanks to [WPMU DEV](https://wpmudev.com/) for developing such a great plugin.**
 
