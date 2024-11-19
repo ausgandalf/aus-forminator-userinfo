@@ -1,6 +1,7 @@
 <?php
 /**
  * Plugin Name: Forminator Add-on : User Info
+ * Requires Plugins: forminator
  * Version: 1.0.0
  * Description: Log user information on submission and enables [view-only-own-submissions for non-admin users] functon.
  * Author: Auslee
@@ -28,6 +29,8 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 */
+
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 $aus__forminator_custom_metas = array(
 	array(

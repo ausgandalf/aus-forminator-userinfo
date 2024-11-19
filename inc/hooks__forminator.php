@@ -6,6 +6,8 @@
  * @subpackage Hooks for Forminator plugin
  */
 
+ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+ 
 /**
  * Add user info as meta data
  */
